@@ -1,0 +1,50 @@
+@media only screen and (max-width: 450px) {
+
+ .navmobile {
+    display: inherit;
+
+ }
+
+
+footer {
+
+position: absolute;
+width: 100vw;
+bottom: 0;
+margin: 0;
+
+}
+
+ ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 8vw;
+ }
+
+ li {
+    flex-direction: row;
+    list-style: none;
+
+ }
+
+ ul img {
+    height: 4vh;
+ }
+    
+
+
+
+
+}
+
+/*
+.navmobile {
+    display: none;
+}
+
+*/
+
+body {
+    width: 100vw;
+}
