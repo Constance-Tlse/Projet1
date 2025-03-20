@@ -3,30 +3,32 @@ body {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    line-height: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  align-items: center;
+  line-height: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 40px;
 }
- h2 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
 
- 
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
- .submit button {
- width: 100px;
- height: 50px;
- }
 
- .submit button:hover {
-background-color: #3333;
- }
+
+.submit button {
+  width: 100px;
+  height: 50px;
+}
+
+.submit button:hover {
+  background-color: #3333;
+}
+
 .p {
   border: 10px solid red;
-  
- }
+
+}
