@@ -6,15 +6,64 @@ body {
 }
 
 
+.userinformation {
+    color: rgb(0, 0, 0);
+    align-content: end;
+
+}
+
+.headpost {
+    display: flex;
+
+
+img {
+    height: 5vh;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+}
+
+.postuseravatar {
+    margin-right: 5%;
+}
+
+.postinteraction {
+
+ul {
+    display: flex;
+    gap: 2ch;
+    align-content:end;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul li img {
+    height: 3ch;
+}
+
+}
+
+
+
 
 @media only screen and (max-width: 730px) {
 
- .navmobile {
+.navmobile {
     display: inherit;
 
  }
 
- .navdesktop {
+.navdesktop {
     display: none;
  }
 
@@ -84,7 +133,33 @@ margin: 0;
     list-style: none;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
 
-*/
+}
+
+.main1, .main2, .main3 {
+    display: flex;
+    width: 30VW; 
+    height: 100vh;
+    border: solid;
+}
+
+.post {
+    height: fit-content; 
+    width: 90%;
+    padding: 3%;
+    margin: 1vh auto;
+    background-color: lightgray;
+}
+
+.bar {
+    width: 1CH;
+    background-color: black;
+    border-radius: 20PX;
+    
+}
+
 
 }
