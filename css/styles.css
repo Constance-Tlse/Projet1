@@ -1,10 +1,23 @@
+body {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 @media only screen and (max-width: 450px) {
 
  .navmobile {
     display: inherit;
 
  }
- 
+
+ .navdesktop {
+    display: none;
+ }
+
 
 footer {
 
@@ -38,13 +51,40 @@ margin: 0;
 
 }
 
-/*
+
+@media only screen and (min-width: 450px) { 
+
 .navmobile {
     display: none;
 }
 
+.navdesktop {
+    display: flex;
+    margin: 2vw;
+    justify-content:space-between
+}
+
+.navdesktop img {
+    height: 6vh;
+}
+
+.navdesktop h1 {
+    margin: auto 20px auto 20px;
+}
+
+.navdesktop ul {
+    display: flex;
+    gap: 5vw;
+    justify-content: right; 
+    margin: auto 0 auto 0;
+}
+
+.navdesktop li {
+    display: inline-flex;
+    list-style: none;
+}
+
+
 */
 
-body {
-    width: 100vw;
 }
