@@ -38,10 +38,6 @@ form {
 
 /*Confirmation formulaire*/
 
-.body {
-  background: gray;
-}
-
 .div-p {
   border: 2px solid black;
   box-shadow: 10px 10px 10px #333;
@@ -57,7 +53,7 @@ form {
 }
 
 .confirmation {
-  font-size: 40px;
+  font-size: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
