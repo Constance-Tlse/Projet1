@@ -72,4 +72,4 @@ function makepost(post) {
     return post
 }
 
-export default postdone;
+export default makepost;
