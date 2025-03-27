@@ -1,0 +1,32 @@
+const data = [
+	
+	{
+		id:0,
+		useravatar: "../IMG/Nav[1]User.png",
+		username: "Escargots",
+		userdesc: "Sainte mère",
+		postimg: "./IMG/postcontent.jpg",
+		posttext: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto similique nihil molestias adipisci est quia, delectus excepturi fugiat laudantium quam et maxime enim consequuntur perspiciatis vitae optio pariatur officia provident? Sint impedit labore inventore eum quidem dicta voluptas totam omnis?"
+	},
+
+    {
+		id:1,
+		useravatar: "../IMG/Nav[1]User.png",
+		username: "Mama Escargots",
+		userdesc: "Sainte mère",
+		postimg: "./IMG/postcontent.jpg",
+		posttext: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto similique nihil molestias adipisci est quia, delectus excepturi fugiat laudantium quam et maxime enim consequuntur perspiciatis vitae optio pariatur officia provident? Sint impedit labore inventore eum quidem dicta voluptas totam omnis?"
+	},
+
+    {
+		id:2,
+		useravatar: "../IMG/Nav[1]User.png",
+		username: "Papa Escargots",
+		userdesc: "Sainte mère",
+		postimg: "./IMG/postcontent.jpg",
+		posttext: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto similique nihil molestias adipisci est quia, delectus excepturi fugiat laudantium quam et maxime enim consequuntur perspiciatis vitae optio pariatur officia provident? Sint impedit labore inventore eum quidem dicta voluptas totam omnis?"
+	},
+];
+
+export default data;
+

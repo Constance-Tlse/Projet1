@@ -33,7 +33,7 @@ body {
 	font-size: 12pt;
 
 	img {
-		height: 30vh;
+		width: 100%;
 	}
 }
 
@@ -68,8 +68,18 @@ body {
 		display: none;
 	}
 
+	.main1 {
+		height: 90vh;
+		margin: 5VW;
+	}
+
 	footer {
-		position: absolute;
+		background-color: rgb(255, 255, 255);
+		height: 150px;
+	}
+
+	footer {
+		position: fixed;
 		width: 100vw;
 		bottom: 0;
 	}
