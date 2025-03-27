@@ -1,4 +1,4 @@
-export const data = [
+const data = [
 	
 	{
 		id:0,
@@ -26,4 +26,7 @@ export const data = [
 		postimg: "./IMG/postcontent.jpg",
 		posttext: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto similique nihil molestias adipisci est quia, delectus excepturi fugiat laudantium quam et maxime enim consequuntur perspiciatis vitae optio pariatur officia provident? Sint impedit labore inventore eum quidem dicta voluptas totam omnis?"
 	},
-]
+];
+
+export default data;
+
