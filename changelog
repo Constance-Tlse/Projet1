@@ -1,0 +1,28 @@
+0.1.0 |     Structure HTML and CSS
+0.1.1 |     ADD Menu Mobile and Desktop
+0.1.3 |     Template Post published
+0.1.3 |     Patch Menu desktop    
+0.1.4 |     Add Data and JS file   
+0.1.5 |     Build API
+0.2.0 |     API Work    
+0.3.0 |     Publish "post" make 
+0.3.2 |     Small patch
+0.3.3 |     Patch Load.js
+0.3.4 |     load.js Work, waiting integration
+0.3.5 |     Patch load.js (inlink broken)
+0.4.0 |     Main post integration, major patch desktop and mobile version
+
+
+
+// oncoming
+
+    ==>     Merge Clement scripts (upload content post)
+    ==>     Merge Jerome script (drive data)
+    ==>     Make others pages
+    ==>     Accessibility feature 
+    ==>     Darkmode feature
+    ==>     Search feature
+    ==>     merge all
+    ==>     Design 
+    ==>     Test 
+    ==>     Publish     
