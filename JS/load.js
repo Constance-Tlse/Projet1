@@ -8,17 +8,26 @@ const main2 = document.querySelector(".main2");
 
 const incrementPost = (array) => {
 	for (let i = array.length - 1; i >= 0; i--) {
-		const element = array[i];
-		main1.appendChild(makepost(element));
+		const post = array[i];
+		main1.appendChild(makepost(post));
 	}
 };
 
 incrementPost(datapost);
 
+const incrementReplyPost = (array) => {
+	for (let i = 0; i <= 0; i++) {
+		const post = array[i];
+		main2.appendChild(makepost(post));
+	}
+};
+
+incrementReplyPost(datapost);
+
 const incrementreply = (array) => {
 	for (let i = array.length - 1; i >= 0; i--) {
-		const element = array[i];
-		main2.appendChild(makereply(element));
+		const reply = array[i];
+		main2.appendChild(makereply(reply));
 	}
 };
 
