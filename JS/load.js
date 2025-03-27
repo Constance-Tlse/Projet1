@@ -1,4 +1,4 @@
-import makepost from "../JS/boring.js";
+import makepost from "./createpost.js";
 import data from "../DATA/data.js";
 const main1 = document.querySelector(".main1")
 
