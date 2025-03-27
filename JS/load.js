@@ -10,6 +10,4 @@ const incrementPost = (array) => {
 	}
 };
 
-const zbla = incrementPost(data);
-
-console.log(zbla)
+incrementPost(data);
