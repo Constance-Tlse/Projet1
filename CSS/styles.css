@@ -35,12 +35,6 @@ body {
 .profil {
 	width: 90%;
 	margin-bottom: 3vh;
-
-	img {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
 }
 
 .avatar {
