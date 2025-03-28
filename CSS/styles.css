@@ -34,10 +34,13 @@ body {
 
 .profil {
 	width: 90%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	margin-bottom: 3vh;
+
+	img {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .avatar {
@@ -69,12 +72,11 @@ body {
 }
 
 .profilinformation {
-	text-align: center;
 	margin-bottom: 1vh;
 }
 
 .postcontent {
-	margin: 3vh 0;
+	margin: 1vh 0 3vh 0;
 	width: 100%;
 	font-size: 1em;
 
@@ -133,7 +135,8 @@ body {
 
 	/* Présentation feature mobile */
 
-	.main2, .main3 {
+	.main2,
+	.main3 {
 		margin: 5vw;
 	}
 
