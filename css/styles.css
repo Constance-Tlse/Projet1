@@ -11,6 +11,11 @@ body {
 	align-content: end;
 }
 
+.username {
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
 .headpost {
 	display: flex;
 
@@ -27,6 +32,47 @@ body {
 	margin-right: 5%;
 }
 
+.profil {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 3vh;
+}
+
+.avatar {
+	width: 50%;
+	margin: 3vh 0;
+}
+
+.avatarinteraction {
+	ul {
+		display: flex;
+		gap: 2ch;
+		padding: 0;
+	}
+
+	li {
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+	}
+
+	ul li img {
+		height: 3ch;
+	}
+
+	p {
+		margin: auto 5px;
+		text-align: center;
+	}
+}
+
+.profilinformation {
+	text-align: center;
+	margin-bottom: 1vh;
+}
+
 .postcontent {
 	margin: 3vh 0;
 	width: 100%;
@@ -34,7 +80,7 @@ body {
 
 	img {
 		width: 100%;
-		max-height: 25VH;
+		max-height: 25vh;
 		object-fit: contain;
 	}
 }
@@ -68,6 +114,11 @@ body {
 	}
 
 	.navdesktop {
+		display: none;
+	}
+
+	.main2,
+	.main3 {
 		display: none;
 	}
 
@@ -170,19 +221,17 @@ body {
 		flex-direction: column;
 		width: 30vw;
 	}
-	
+
 	.main2 {
 		display: flex;
 		flex-direction: column;
 		width: 30vw;
 	}
 
-
 	.main3 {
 		display: flex;
 		flex-direction: column;
 		width: 30vw;
-
 	}
 
 	.post {
@@ -200,6 +249,6 @@ body {
 	}
 
 	.bar2 {
-		display: none;
+		display: unset;
 	}
 }
