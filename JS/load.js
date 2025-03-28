@@ -6,9 +6,9 @@ import datareply from "../DATA/comment.js";
 import dataprofil from "../DATA/dataprofil.js";
 import dataprofilpost from "../DATA/data_profilpost.js"
 
-const main1 = document.querySelector(".main1");
-const main2 = document.querySelector(".main2");
-const main3 = document.querySelector(".main3");
+const main1 = document.querySelector(".content1");
+const main2 = document.querySelector(".content2");
+const main3 = document.querySelector(".content3");
 
 // Index / Postpage / Post
 
