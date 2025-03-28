@@ -51,7 +51,7 @@ body {
 		gap: 2ch;
 		padding: 0;
 	}
-	
+
 	li {
 		display: flex;
 		flex-direction: row;
@@ -249,6 +249,6 @@ body {
 	}
 
 	.bar2 {
-		display: ;
+		display: unset;
 	}
 }
