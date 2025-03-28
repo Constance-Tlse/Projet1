@@ -8,6 +8,7 @@ function makepost(post) {
 	new_postuseravatar.classList.add("postuseravatar");
 	const new_useravatar = document.createElement("img");
 	new_useravatar.classList.add("useravatar");
+	new_useravatar.setAttribute("alt", "useravatar")
 	const new_userinformation = document.createElement("div");
 	new_userinformation.classList.add("userinformation");
 	const new_username = document.createElement("p");
@@ -18,6 +19,7 @@ function makepost(post) {
 	new_postcontent.classList.add("postcontent");
 	const new_postimg = document.createElement("img");
 	new_postimg.classList.add("postimg");
+	new_postimg.setAttribute("alt", "post_content");
 	const new_posttext = document.createElement("p");
 	new_posttext.classList.add("posttext");
 	const new_postinteraction = document.createElement("div");
