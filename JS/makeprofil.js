@@ -25,7 +25,7 @@ function makeprofil(post) {
 
 	// data
 
-	new_useravatar.src = post.useravatar;
+	new_useravatar.src = "./IMG/Nav[1]User.png";
 	new_username.textContent = post.username;
 	new_userdesc.textContent = post.userdesc;
 	new_li_add.src = "./IMG/profil[1]adduser.png";
