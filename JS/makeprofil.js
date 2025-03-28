@@ -4,6 +4,7 @@ function makeprofil(post) {
 	new_profil.classList.add("profil");
 	const new_useravatar = document.createElement("img");
 	new_useravatar.classList.add("avatar");
+	new_useravatar.setAttribute("alt", "user_avatar");
 	const new_profilinformation = document.createElement("div");
 	new_profilinformation.classList.add("profilinformation");
 	const new_username = document.createElement("p");
@@ -22,8 +23,11 @@ function makeprofil(post) {
 	const new_li_blockuser = document.createElement("li");
 	new_li_blockuser.classList.add("blockuser");
 	const new_li_addimg = document.createElement("img");
+	new_li_addimg.setAttribute("alt", "Add_user");
 	const new_li_messagesimg = document.createElement("img");
+	new_li_messagesimg.setAttribute("alt", "Contact_user");
 	const new_li_blockuserimg = document.createElement("img");
+	new_li_blockuserimg.setAttribute("alt", "block_user");
 
 
 	// data

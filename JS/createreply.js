@@ -8,6 +8,7 @@ function makereply(post) {
 	new_postuseravatar.classList.add("postuseravatar");
 	const new_useravatar = document.createElement("img");
 	new_useravatar.classList.add("useravatar");
+	new_useravatar.setAttribute("alt", "user_avatar");
 	const new_userinformation = document.createElement("div");
 	new_userinformation.classList.add("userinformation");
 	const new_username = document.createElement("p");
