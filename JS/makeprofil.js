@@ -15,18 +15,15 @@ function makeprofil(post) {
 	new_avatarinteraction.classList.add("avatarinteraction");
 	const new_ul = document.createElement("ul");
 
-	const new_li_add = document.createElement("add");
+	const new_li_add = document.createElement("li");
 	new_li_add.classList.add("add");
 	const new_li_messages = document.createElement("li");
 	new_li_messages.classList.add("messages");
 	const new_li_blockuser = document.createElement("li");
 	new_li_blockuser.classList.add("blockuser");
 	const new_li_addimg = document.createElement("img");
-	new_li_addimg.classList.add("adduser");
 	const new_li_messagesimg = document.createElement("img");
-	new_li_messagesimg.classList.add("messages");
 	const new_li_blockuserimg = document.createElement("img");
-	new_li_blockuserimg.classList.add("blockuser");
 
 
 	// data
@@ -54,8 +51,7 @@ function makeprofil(post) {
 				new_ul.appendChild(new_li_messages);
 					new_li_messages.appendChild(new_li_messagesimg);
 				new_ul.appendChild(new_li_blockuser);
-					// bug user block ne s'affiche pas à corriger
-					new_li_blockuser.appendChild(new_li_addimg);
+					new_li_blockuser.appendChild(new_li_blockuserimg);
 
 	return new_profil;
 }
